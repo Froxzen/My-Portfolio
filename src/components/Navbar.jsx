@@ -45,7 +45,7 @@ const Navbar = () => {
 					<li>Projects</li>
 				</a>
 				<a
-					href="#Contact"
+					href="#contact"
 					className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
 				>
 					<li>Contact</li>
@@ -53,18 +53,30 @@ const Navbar = () => {
 			</ul>
 
 			<ul className="hidden md:flex gap-5">
-				<li
-					className="cursor-pointer text-xl opacity-70 transition-all duration-300 
+				<a
+					href="https://www.linkedin.com/in/harvard-chong/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<li
+						className="cursor-pointer text-xl opacity-70 transition-all duration-300 
                 hover:text-blue-500 hover:opacity-100"
+					>
+						<BsLinkedin />
+					</li>
+				</a>
+				<a
+					href="https://github.com/Froxzen"
+					target="_blank"
+					rel="noopener noreferrer"
 				>
-					<BsLinkedin />
-				</li>
-				<li
-					className="cursor-pointer text-xl opacity-70 transition-all duration-300 
+					<li
+						className="cursor-pointer text-xl opacity-70 transition-all duration-300 
                 hover:text-white-500 hover:opacity-100"
-				>
-					<BsGithub />
-				</li>
+					>
+						<BsGithub />
+					</li>
+				</a>
 			</ul>
 
 			{isOpen ? (
