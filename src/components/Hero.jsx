@@ -21,9 +21,9 @@ const Hero = () => {
 					<img
 						src={image}
 						alt=""
-						className="w-[300px] cursor-pointer rounded-full 
-                    shadow-xl shadow-indigo-900 transition-all duration-300 hover:-translate-y-5
-                    hover:scale-105 hover:shadow-2xl hover:shadow-indigo-600 md:w-[350px]"
+						className="w-[275px] cursor-pointer rounded-full 
+                    shadow-xl shadow-indigo-900 transition-all duration-300 hover:-translate-y-3
+                    hover:scale-105 hover:shadow-2xl hover:shadow-indigo-600 md:w-[300px]"
 					/>
 				</motion.div>
 
@@ -35,7 +35,7 @@ const Hero = () => {
                 text-center"
 				>
 					<h1
-						className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent text-5xl leading-tight font-light
+						className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent text-4xl leading-tight font-light
                         md-text-7xl"
 					>
 						Harvard Chong
@@ -48,12 +48,10 @@ const Hero = () => {
 					</h3>
 					<p className="md:text-base text-pretty text-sm text-gray-400">
 						I'm a 2nd year student studying Software Engineering at
-						UNSW. I have experience in various domains such as AI,
-						machine learning, software engineering, and web
-						development. 
+						UNSW.
                         <br/>
                         I am eager to expand my skills and apply
-						them to projects that will positively impact the world!
+						them to projects that will positively impact the world!🚀🚀🚀
 					</p>
 				</motion.div>
 			</div>
