@@ -1,7 +1,9 @@
 import React from 'react'
 import {motion} from "motion/react"
+import { BiLinkExternal } from "react-icons/bi";
 import youtubeImage from "/public/Youtube.png"
-import bubbleImage from "/public/bubble.png"
+import bubbleImage from "/public/Bubble.png"
+import sentimentImage from "/public/Sentiment.png"
 
 const projectsData = [
 	{
@@ -10,6 +12,7 @@ const projectsData = [
 		description:
 			"This project is a sentiment analysis application built with Streamlit and NLTK's SentimentIntensityAnalyzer. It allows users to enter text and receive sentiment feedback along with a visual representation of the sentiment score.",
 		technologies: ["HTML", "CSS", "JavaScript", "Express"],
+		link: "https://www.linkedin.com/in/harvard-chong/",
 	},
 	{
 		image: bubbleImage,
@@ -17,7 +20,16 @@ const projectsData = [
 		description:
 			"A program which allows you to visualize the Bubble Sort algorithm in action. You can generate a new dataset, change its size, and adjust the speed of the visualization.",
 		technologies: ["HTML", "CSS", "TypeScript"],
-	}
+		link: "https://sorting-algorithm.pages.dev/",
+	},
+	{
+		image: sentimentImage,
+		title: "Sentiment Analyser",
+		description:
+			"This project is a sentiment analysis application built with Streamlit and NLTK's SentimentIntensityAnalyzer. It allows users to enter text and receive sentiment feedback along with a visual representation of the sentiment score.",
+		technologies: ["HTML", "CSS", "TypeScript"],
+		link: "https://sentiment-analyser-ai.streamlit.app/",
+	},
 ];
 
 const ScrollReveal = ({children}) => {
@@ -36,12 +48,22 @@ const ProjectCard = ({project}) => {
     return (
 		<ScrollReveal>
 			<div className="flex flex-col items-center gap-8 md:flex-row md:gap-24">
-				<img
-					src={project.image}
-					alt=""
-					className="w-full cursor-pointer rounded-2xl transition-all
-            duration-300 hover:scale-105 md:w-[300px]"
-				/>
+				<div className="relative block w-full max-w-[300px] transition-all duration-300 hover:scale-105">
+					<a
+						href={project.link}
+						target="_blank"
+						rel="noopener noreferrer"
+						className="block w-full"
+					>
+						<img
+							src={project.image}
+							alt=""
+							className="w-full cursor-pointer rounded-2xl "
+						/>
+						<BiLinkExternal className="absolute bottom-2 right-2 text-white text-2xl bg-black rounded-full p-1" />
+					</a>
+				</div>
+
 				<div className="flex flex-col gap-5">
 					<div className="flex flex-col gap-3">
 						<div className="text-xl font-semibold">
