@@ -1,6 +1,7 @@
 import React from "react";
 import {
     BiLogoCPlusPlus,
+	BiLogoInternetExplorer,
 	BiLogoJavascript,
 	BiLogoNodejs,
 	BiLogoPython,
@@ -8,6 +9,7 @@ import {
 	BiLogoTailwindCss,
 	BiLogoTypescript,
 } from "react-icons/bi";
+import { SiExpress } from "react-icons/si";
 import { motion } from "motion/react";
 
 const Tech = () => {
@@ -94,6 +96,19 @@ const Tech = () => {
 						<BiLogoNodejs className="cursor-pointer text-[80px] text-green-500 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
 						<span className="mt-2 text-lg text-gray-300">
 							Node.js
+						</span>
+					</div>
+				</motion.div>
+				<motion.div
+					variants={variants}
+					initial="hidden"
+					whileInView="visible"
+					transition={{ duration: 0.5 }}
+				>
+					<div className="flex flex-col items-center">
+						<SiExpress className="cursor-pointer text-[80px] text-gray-300 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
+						<span className="mt-2 text-lg text-gray-300">
+							Express.js
 						</span>
 					</div>
 				</motion.div>
