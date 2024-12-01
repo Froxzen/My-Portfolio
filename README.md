@@ -15,9 +15,9 @@ This is a personal portfolio website built with React and Tailwind CSS. It showc
 
 To run this portfolio locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/portfolio.git`
+1. Clone the repository: `git clone https://github.com/your-username/My-Portfolio.git`
 
-2. Navigate to the project directory: `cd portfolio`
+2. Navigate to the project directory: `cd My-Portfolio`
 
 3. Install dependencies: `npm install`
 
