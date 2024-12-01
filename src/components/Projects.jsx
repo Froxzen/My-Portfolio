@@ -7,19 +7,11 @@ import sentimentImage from "/public/Sentiment.png"
 
 const projectsData = [
 	{
-		image: youtubeImage,
-		title: "Youtube to MP3 Converter",
-		description:
-			"This project is a sentiment analysis application built with Streamlit and NLTK's SentimentIntensityAnalyzer. It allows users to enter text and receive sentiment feedback along with a visual representation of the sentiment score.",
-		technologies: ["HTML", "CSS", "JavaScript", "Express"],
-		link: "https://www.linkedin.com/in/harvard-chong/",
-	},
-	{
 		image: bubbleImage,
 		title: "Bubble Sort Visualiser",
 		description:
 			"A program which allows you to visualize the Bubble Sort algorithm in action. You can generate a new dataset, change its size, and adjust the speed of the visualization.",
-		technologies: ["HTML", "CSS", "TypeScript"],
+		technologies: ["HTML", "CSS", "TypeScript", "Node.js", "Vite"],
 		link: "https://sorting-algorithm.pages.dev/",
 	},
 	{
@@ -27,8 +19,16 @@ const projectsData = [
 		title: "Sentiment Analyser",
 		description:
 			"This project is a sentiment analysis application built with Streamlit and NLTK's SentimentIntensityAnalyzer. It allows users to enter text and receive sentiment feedback along with a visual representation of the sentiment score.",
-		technologies: ["HTML", "CSS", "TypeScript"],
+		technologies: ["Python", "NLTK", "Streamlit"],
 		link: "https://sentiment-analyser-ai.streamlit.app/",
+	},
+	{
+		image: youtubeImage,
+		title: "Youtube to MP3 Converter",
+		description:
+			"This project is a sentiment analysis application built with Streamlit and NLTK's SentimentIntensityAnalyzer. It allows users to enter text and receive sentiment feedback along with a visual representation of the sentiment score.",
+		technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js"],
+		link: "https://yt2mp3-converter.vercel.app/",
 	},
 ];
 
