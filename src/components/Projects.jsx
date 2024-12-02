@@ -1,9 +1,9 @@
 import React from 'react'
 import {motion} from "motion/react"
 import { BiLinkExternal } from "react-icons/bi";
-import youtubeImage from "/public/Youtube.png"
-import bubbleImage from "/public/Bubble.png"
-import sentimentImage from "/public/Sentiment.png"
+import youtubeImage from "../images/Youtube.png"
+import bubbleImage from "../images/Bubble.png";
+import sentimentImage from "../images/Sentiment.png";
 
 const projectsData = [
 	{
@@ -48,7 +48,7 @@ const ProjectCard = ({project}) => {
     return (
 		<ScrollReveal>
 			<div className="flex flex-col items-center gap-8 md:flex-row md:gap-24">
-				<div className="relative block w-full max-w-[300px] transition-all duration-300 hover:scale-105">
+				<div className="relative block w-full max-w-[300px] md:transition-all md:duration-300 md:hover:scale-105">
 					<a
 						href={project.link}
 						target="_blank"

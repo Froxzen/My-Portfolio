@@ -41,7 +41,7 @@ const Tech = () => {
 					transition={{ duration: 0.5 }}
 				>
 					<div className="flex flex-col items-center">
-						<BiLogoJavascript className="cursor-pointer text-[80px] text-yellow-500 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
+						<BiLogoJavascript className="cursor-pointer text-[80px] text-yellow-500 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
 						<span className="mt-2 text-lg text-gray-300">
 							JavaScript
 						</span>
@@ -54,7 +54,7 @@ const Tech = () => {
 					transition={{ duration: 0.5 }}
 				>
 					<div className="flex flex-col items-center">
-						<BiLogoTypescript className="cursor-pointer text-[80px] text-sky-500 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
+						<BiLogoTypescript className="cursor-pointer text-[80px] text-sky-500 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
 						<span className="mt-2 text-lg text-gray-300">
 							TypeScript
 						</span>
@@ -67,7 +67,7 @@ const Tech = () => {
 					transition={{ duration: 0.5 }}
 				>
 					<div className="flex flex-col items-center">
-						<BiLogoReact className="cursor-pointer text-[80px] text-sky-500 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
+						<BiLogoReact className="cursor-pointer text-[80px] text-sky-500 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
 						<span className="mt-2 text-lg text-gray-300">
 							React
 						</span>
@@ -80,7 +80,7 @@ const Tech = () => {
 					transition={{ duration: 0.5 }}
 				>
 					<div className="flex flex-col items-center">
-						<BiLogoTailwindCss className="cursor-pointer text-[80px] text-sky-500 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
+						<BiLogoTailwindCss className="cursor-pointer text-[80px] text-sky-500 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
 						<span className="mt-2 text-lg text-gray-300">
 							Tailwind CSS
 						</span>
@@ -93,7 +93,7 @@ const Tech = () => {
 					transition={{ duration: 0.5 }}
 				>
 					<div className="flex flex-col items-center">
-						<BiLogoNodejs className="cursor-pointer text-[80px] text-green-500 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
+						<BiLogoNodejs className="cursor-pointer text-[80px] text-green-500 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
 						<span className="mt-2 text-lg text-gray-300">
 							Node.js
 						</span>
@@ -106,7 +106,7 @@ const Tech = () => {
 					transition={{ duration: 0.5 }}
 				>
 					<div className="flex flex-col items-center">
-						<SiExpress className="cursor-pointer text-[80px] text-gray-300 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
+						<SiExpress className="cursor-pointer text-[80px] text-gray-300 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
 						<span className="mt-2 text-lg text-gray-300">
 							Express.js
 						</span>
@@ -119,7 +119,7 @@ const Tech = () => {
 					transition={{ duration: 0.5 }}
 				>
 					<div className="flex flex-col items-center">
-						<BiLogoCPlusPlus className="cursor-pointer text-[80px] text-gray-300 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
+						<BiLogoCPlusPlus className="cursor-pointer text-[80px] text-gray-300 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
 						<span className="mt-2 text-lg text-gray-300">C++</span>
 					</div>
 				</motion.div>

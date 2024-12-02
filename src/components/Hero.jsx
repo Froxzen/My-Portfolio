@@ -1,5 +1,5 @@
 import React from "react";
-import image from "/public/Linkedin-pfp.png";
+import image from "../images/Linkedin-pfp.png";
 import { motion } from "motion/react";
 
 const Hero = () => {
@@ -14,23 +14,23 @@ const Hero = () => {
             gap-10 text-white"
 			>
 				<motion.div
-                    initial={{y: -50, opacity: 0}}
-                    animate={{y: 0, opacity: 1}}
-                    transition={{duration: 0.8, delay: 0.2}}
-                >
+					initial={{ y: -50, opacity: 0 }}
+					animate={{ y: 0, opacity: 1 }}
+					transition={{ duration: 0.8, delay: 0.2 }}
+				>
 					<img
 						src={image}
 						alt=""
 						className="w-[275px] cursor-pointer rounded-full 
-                    shadow-xl shadow-indigo-900 transition-all duration-300 hover:-translate-y-3
-                    hover:scale-105 hover:shadow-2xl hover:shadow-indigo-600 md:w-[300px]"
+                    shadow-xl shadow-indigo-900 transition-all duration-300 md:hover:-translate-y-3
+                    md:hover:scale-105 md:hover:shadow-2xl md:hover:shadow-indigo-600 md:w-[300px]"
 					/>
 				</motion.div>
 
 				<motion.div
-                    initial={{y: 50, opacity: 0}}
-                    animate={{y: 0, opacity: 1}}
-                    transition={{duration: 0.8, delay: 0.2}}
+					initial={{ y: 50, opacity: 0 }}
+					animate={{ y: 0, opacity: 1 }}
+					transition={{ duration: 0.8, delay: 0.2 }}
 					className="flex max-w-[600px] flex-col items-center justify-center gap-3
                 text-center"
 				>
@@ -49,9 +49,8 @@ const Hero = () => {
 					<p className="md:text-base text-pretty text-sm text-gray-400">
 						I'm a 2nd year student studying Software Engineering at
 						UNSW.
-                        <br/>
-                        I am eager to expand my skills and apply
-						them to projects that will positively impact the world!🚀🚀🚀
+						<br />I am eager to expand my skills and apply them to
+						projects that will positively impact the world!🚀🚀🚀
 					</p>
 				</motion.div>
 			</div>
