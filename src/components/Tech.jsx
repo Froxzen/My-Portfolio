@@ -119,6 +119,21 @@ const Tech = () => {
 					transition={{ duration: 0.5 }}
 				>
 					<div className="flex flex-col items-center">
+						<BiLogoPython
+							className="cursor-pointer text-[80px] text-blue-500 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]"
+						/>
+						<span className="mt-2 text-lg text-gray-300">
+							Python
+						</span>
+					</div>
+				</motion.div>
+				<motion.div
+					variants={variants}
+					initial="hidden"
+					whileInView="visible"
+					transition={{ duration: 0.5 }}
+				>
+					<div className="flex flex-col items-center">
 						<BiLogoCPlusPlus className="cursor-pointer text-[80px] text-gray-300 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
 						<span className="mt-2 text-lg text-gray-300">C++</span>
 					</div>
