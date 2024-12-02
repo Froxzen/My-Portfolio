@@ -21,7 +21,7 @@ const Hero = () => {
 					<img
 						src={image}
 						alt=""
-						className="w-[275px] cursor-pointer rounded-full 
+						className="w-[275px] cursor-auto rounded-full 
                     shadow-xl shadow-indigo-900 transition-all duration-300 md:hover:-translate-y-3
                     md:hover:scale-105 md:hover:shadow-2xl md:hover:shadow-indigo-600 md:w-[300px]"
 					/>
