@@ -60,7 +60,7 @@ const Navbar = () => {
 				>
 					<li
 						className="cursor-pointer text-xl opacity-70 transition-all duration-300 
-                hover:text-blue-500 hover:opacity-100"
+                md:hover:text-blue-500 md:hover:opacity-100"
 					>
 						<BsLinkedin />
 					</li>
@@ -72,7 +72,7 @@ const Navbar = () => {
 				>
 					<li
 						className="cursor-pointer text-xl opacity-70 transition-all duration-300 
-                hover:text-white-500 hover:opacity-100"
+                md:hover:text-white-500 md:hover:opacity-100"
 					>
 						<BsGithub />
 					</li>
