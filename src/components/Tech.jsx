@@ -31,7 +31,7 @@ const Tech = () => {
 				transition={{ duration: 0.5 }}
 				className="text-5xl md:text-7xl font-light text-white"
 			>
-				Technologies
+				Languages
 			</motion.h1>
 			<div className="flex flex-wrap items-center justify-center gap-10 p-5">
 				<motion.div
