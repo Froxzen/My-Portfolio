@@ -9,7 +9,7 @@ const projectsData = [
 		image: pathfinderImage,
 		title: "Pathfinding Algorithm Visualiser",
 		description:
-			"An app to visualise how different pathfinding and maze generation algorithms work.",
+			"An app to visualise how different pathfinding and maze generation algorithms work. Algorithms include Dijkstra, A*, BFS and DFS!",
 		technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
 		link: "https://froxzen.github.io/pathfinder-visualiser/",
 	},
