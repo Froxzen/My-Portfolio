@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "motion/react";
 import { BiLinkExternal } from "react-icons/bi";
 import bubbleImage from "../images/Bubble.png";

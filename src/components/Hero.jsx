@@ -1,4 +1,3 @@
-import React from "react";
 import image from "../images/Linkedin-pfp.png";
 import { motion } from "motion/react";
 

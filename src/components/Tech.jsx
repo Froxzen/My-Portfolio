@@ -1,6 +1,5 @@
 import {
 	BiLogoCPlusPlus,
-	BiLogoJavascript,
 	BiLogoNodejs,
 	BiLogoPython,
 	BiLogoReact,
