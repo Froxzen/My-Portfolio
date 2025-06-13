@@ -13,7 +13,7 @@ import { motion } from "motion/react";
 
 const Tech = () => {
 	const variants = {
-		hidden: { opactiy: 0, y: 50 },
+		hidden: { opacity: 0, y: 50 },
 		visible: { opacity: 1, y: 0 },
 	};
 
@@ -68,7 +68,7 @@ const Tech = () => {
 					<div className="flex flex-col items-center">
 						<RiNextjsFill
 							color="white"
-							className="cursor-pointer text-[80px]transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]"
+							className="cursor-pointer text-[80px] transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]"
 						/>
 						<span className="mt-2 text-lg text-gray-300">
 							Next.js
@@ -121,7 +121,10 @@ const Tech = () => {
 					transition={{ duration: 0.5 }}
 				>
 					<div className="flex flex-col items-center">
-						<BiLogoPython className="cursor-pointer text-[80px] text-blue-500 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
+						<BiLogoPython
+							className="cursor-pointer text-[80px] transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]"
+							style={{ color: "#3776ab" }}
+						/>
 						<span className="mt-2 text-lg text-gray-300">
 							Python
 						</span>
