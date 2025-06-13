@@ -46,7 +46,7 @@ const Hero = () => {
 						Software Engineer
 					</h3> */}
 					<p className="md:text-base text-pretty text-sm text-gray-400">
-						2nd year Bachelor of Engineering (Software) @ UNSW
+						2nd Year Bachelor of Engineering (Software) @ UNSW
 					</p>
 				</motion.div>
 			</div>
