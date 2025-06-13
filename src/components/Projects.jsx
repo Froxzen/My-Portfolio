@@ -1,13 +1,13 @@
 import React from "react";
 import { motion } from "motion/react";
 import { BiLinkExternal } from "react-icons/bi";
-import youtubeImage from "../images/Youtube.png";
 import bubbleImage from "../images/Bubble.png";
+import pathfinderImage from "../images/pathfinder.png"
 import sentimentImage from "../images/Sentiment.png";
 
 const projectsData = [
 	{
-		image: bubbleImage,
+		image: pathfinderImage,
 		title: "Pathfinding Algorithm Visualiser",
 		description:
 			"An app to visualise how different pathfinding and maze generation algorithms work.",
@@ -29,14 +29,6 @@ const projectsData = [
 			"This project is a sentiment analysis application built with Streamlit and NLTK's SentimentIntensityAnalyzer. It allows users to enter text and receive sentiment feedback along with a visual representation of the sentiment score.",
 		technologies: ["Python", "NLTK", "Streamlit"],
 		link: "https://sentiment-analyser-ai.streamlit.app/",
-	},
-	{
-		image: youtubeImage,
-		title: "Youtube to MP3 Converter",
-		description:
-			"This project is a sentiment analysis application built with Streamlit and NLTK's SentimentIntensityAnalyzer. It allows users to enter text and receive sentiment feedback along with a visual representation of the sentiment score.",
-		technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js"],
-		link: "https://yt2mp3-converter.vercel.app/",
 	},
 ];
 

@@ -1,7 +1,5 @@
-import React from "react";
 import {
-    BiLogoCPlusPlus,
-	BiLogoInternetExplorer,
+	BiLogoCPlusPlus,
 	BiLogoJavascript,
 	BiLogoNodejs,
 	BiLogoPython,
@@ -9,6 +7,7 @@ import {
 	BiLogoTailwindCss,
 	BiLogoTypescript,
 } from "react-icons/bi";
+import { RiNextjsFill } from "react-icons/ri";
 import { SiExpress } from "react-icons/si";
 import { motion } from "motion/react";
 
@@ -41,19 +40,6 @@ const Tech = () => {
 					transition={{ duration: 0.5 }}
 				>
 					<div className="flex flex-col items-center">
-						<BiLogoJavascript className="cursor-pointer text-[80px] text-yellow-500 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
-						<span className="mt-2 text-lg text-gray-300">
-							JavaScript
-						</span>
-					</div>
-				</motion.div>
-				<motion.div
-					variants={variants}
-					initial="hidden"
-					whileInView="visible"
-					transition={{ duration: 0.5 }}
-				>
-					<div className="flex flex-col items-center">
 						<BiLogoTypescript className="cursor-pointer text-[80px] text-sky-500 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
 						<span className="mt-2 text-lg text-gray-300">
 							TypeScript
@@ -70,6 +56,22 @@ const Tech = () => {
 						<BiLogoReact className="cursor-pointer text-[80px] text-sky-500 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
 						<span className="mt-2 text-lg text-gray-300">
 							React
+						</span>
+					</div>
+				</motion.div>
+				<motion.div
+					variants={variants}
+					initial="hidden"
+					whileInView="visible"
+					transition={{ duration: 0.5 }}
+				>
+					<div className="flex flex-col items-center">
+						<RiNextjsFill
+							color="white"
+							className="cursor-pointer text-[80px]transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]"
+						/>
+						<span className="mt-2 text-lg text-gray-300">
+							Next.js
 						</span>
 					</div>
 				</motion.div>
@@ -119,9 +121,7 @@ const Tech = () => {
 					transition={{ duration: 0.5 }}
 				>
 					<div className="flex flex-col items-center">
-						<BiLogoPython
-							className="cursor-pointer text-[80px] text-blue-500 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]"
-						/>
+						<BiLogoPython className="cursor-pointer text-[80px] text-blue-500 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
 						<span className="mt-2 text-lg text-gray-300">
 							Python
 						</span>

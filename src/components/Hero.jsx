@@ -40,17 +40,14 @@ const Hero = () => {
 					>
 						Harvard Chong
 					</h1>
-					<h3
+					{/* <h3
 						className="bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-2xl 
                         font-light md-text-7xl"
 					>
 						Software Engineer
-					</h3>
+					</h3> */}
 					<p className="md:text-base text-pretty text-sm text-gray-400">
-						I'm a 2nd year student studying Software Engineering at
-						UNSW.
-						<br />I am eager to expand my skills and apply them to
-						projects that will positively impact the world!🚀🚀🚀
+						2nd year Bachelor of Engineering (Software) @ UNSW
 					</p>
 				</motion.div>
 			</div>
