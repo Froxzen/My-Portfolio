@@ -7,7 +7,7 @@ import {
 	BiLogoTypescript,
 } from "react-icons/bi";
 import { RiNextjsFill } from "react-icons/ri";
-import { SiExpress } from "react-icons/si";
+import { SiExpress, SiPrisma, SiTrpc } from "react-icons/si";
 import { motion } from "motion/react";
 
 const Tech = () => {
@@ -29,7 +29,7 @@ const Tech = () => {
 				transition={{ duration: 0.5 }}
 				className="text-5xl md:text-7xl font-light text-white"
 			>
-				Languages
+				Technologies
 			</motion.h1>
 			<div className="flex flex-wrap items-center justify-center gap-10 p-5">
 				<motion.div
@@ -111,6 +111,23 @@ const Tech = () => {
 						<span className="mt-2 text-lg text-gray-300">
 							Express.js
 						</span>
+					</div>
+				</motion.div>
+				<motion.div>
+					<div className="flex flex-col items-center">
+						<SiPrisma className="cursor-pointer text-[80px] text-gray-300 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
+						<span className="mt-2 text-lg text-gray-300">
+							Prisma
+						</span>
+					</div>
+				</motion.div>
+				<motion.div>
+					<div className="flex flex-col items-center">
+						<SiTrpc
+							className="cursor-pointer text-[80px] transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]"
+							style={{ color: "#40bdf7" }}
+						/>
+						<span className="mt-2 text-lg text-gray-300">tRPC</span>
 					</div>
 				</motion.div>
 				<motion.div

@@ -3,6 +3,7 @@ import { BiLinkExternal } from "react-icons/bi";
 import bubbleImage from "../images/Bubble.png";
 import pathfinderImage from "../images/pathfinder.png"
 import sentimentImage from "../images/Sentiment.png";
+import airtableImage from "../images/Airtable.png"
 
 const projectsData = [
 	{
@@ -12,6 +13,14 @@ const projectsData = [
 			"An app to visualise how different pathfinding and maze generation algorithms work. Algorithms include Dijkstra, A*, BFS and DFS!",
 		technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
 		link: "https://froxzen.github.io/pathfinder-visualiser/",
+	},
+	{
+		image: airtableImage,
+		title: "Airtable Clone",
+		description:
+			"An app where you can create spreadsheets without all the complex stuff. Includes essential features such as filtering, sorting, searching and more!",
+		technologies: ["Next.js", "React", "Tailwind CSS", "tRPC", "PostgreSQL", "Prisma", "NextAuth.js"],
+		link: "https://airtable-clone-ebon.vercel.app/",
 	},
 	{
 		image: bubbleImage,
