@@ -30,12 +30,12 @@ const Navbar = () => {
 				>
 					<li>Home</li>
 				</a>
-				<a
+				{/* <a
 					href="#experience"
 					className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
 				>
 					<li>Experience</li>
-				</a>
+				</a> */}
 
 				<a
 					href="#tech"
