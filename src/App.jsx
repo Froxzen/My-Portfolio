@@ -13,8 +13,8 @@ function App() {
 				<Navbar />
 				<Hero />
 				{/* <Experience /> */}
-
 				<Projects />
+				<div className="mb-16 md:mb-24"></div>
 				<Tech />
 				<Contact />
 			</main>
