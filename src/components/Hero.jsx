@@ -30,7 +30,7 @@ const Hero = () => {
 					initial={{ y: 50, opacity: 0 }}
 					animate={{ y: 0, opacity: 1 }}
 					transition={{ duration: 0.8, delay: 0.2 }}
-					className="flex max-w-[700px] flex-col items-center justify-center gap-3
+					className="flex max-w-[900px] flex-col items-center justify-center gap-3
                 text-center"
 				>
 					<h1
