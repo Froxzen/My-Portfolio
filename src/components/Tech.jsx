@@ -31,7 +31,7 @@ const Tech = () => {
 			>
 				Technologies
 			</motion.h1>
-			<div className="flex flex-wrap items-center justify-center gap-10 p-5">
+			<div className="grid grid-cols-3 md:flex md:flex-wrap items-center justify-center gap-6 md:gap-10 p-5">
 				<motion.div
 					variants={variants}
 					initial="hidden"
