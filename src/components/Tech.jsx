@@ -36,7 +36,7 @@ const Tech = () => {
 					variants={variants}
 					initial="hidden"
 					whileInView="visible"
-					transition={{ duration: 0.5 }}
+					transition={{ duration: 0.5, delay: 0.08 }}
 				>
 					<div className="flex flex-col items-center">
 						<BiLogoTypescript className="cursor-pointer text-[80px] text-sky-500 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
@@ -47,7 +47,7 @@ const Tech = () => {
 					variants={variants}
 					initial="hidden"
 					whileInView="visible"
-					transition={{ duration: 0.5 }}
+					transition={{ duration: 0.5, delay: 0.16 }}
 				>
 					<div className="flex flex-col items-center">
 						<BiLogoReact className="cursor-pointer text-[80px] text-sky-500 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
@@ -58,7 +58,7 @@ const Tech = () => {
 					variants={variants}
 					initial="hidden"
 					whileInView="visible"
-					transition={{ duration: 0.5 }}
+					transition={{ duration: 0.5, delay: 0.24 }}
 				>
 					<div className="flex flex-col items-center">
 						<BiLogoReact className="cursor-pointer text-[80px] text-sky-500 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
@@ -69,7 +69,7 @@ const Tech = () => {
 					variants={variants}
 					initial="hidden"
 					whileInView="visible"
-					transition={{ duration: 0.5 }}
+					transition={{ duration: 0.5, delay: 0.32 }}
 				>
 					<div className="flex flex-col items-center">
 						<RiNextjsFill
@@ -83,7 +83,7 @@ const Tech = () => {
 					variants={variants}
 					initial="hidden"
 					whileInView="visible"
-					transition={{ duration: 0.5 }}
+					transition={{ duration: 0.5, delay: 0.4 }}
 				>
 					<div className="flex flex-col items-center">
 						<BiLogoTailwindCss className="cursor-pointer text-[80px] text-sky-500 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
@@ -94,7 +94,7 @@ const Tech = () => {
 					variants={variants}
 					initial="hidden"
 					whileInView="visible"
-					transition={{ duration: 0.5 }}
+					transition={{ duration: 0.5, delay: 0.48 }}
 				>
 					<div className="flex flex-col items-center">
 						<BiLogoNodejs className="cursor-pointer text-[80px] text-green-500 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
@@ -105,7 +105,7 @@ const Tech = () => {
 					variants={variants}
 					initial="hidden"
 					whileInView="visible"
-					transition={{ duration: 0.5 }}
+					transition={{ duration: 0.5, delay: 0.56 }}
 				>
 					<div className="flex flex-col items-center">
 						<SiExpress className="cursor-pointer text-[80px] text-gray-300 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
@@ -116,7 +116,7 @@ const Tech = () => {
 					variants={variants}
 					initial="hidden"
 					whileInView="visible"
-					transition={{ duration: 0.5 }}
+					transition={{ duration: 0.5, delay: 0.64 }}
 				>
 					<div className="flex flex-col items-center">
 						<SiPrisma className="cursor-pointer text-[80px] text-gray-300 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
@@ -127,7 +127,7 @@ const Tech = () => {
 					variants={variants}
 					initial="hidden"
 					whileInView="visible"
-					transition={{ duration: 0.5 }}
+					transition={{ duration: 0.5, delay: 0.72 }}
 				>
 					<div className="flex flex-col items-center">
 						<SiTrpc
@@ -141,7 +141,7 @@ const Tech = () => {
 					variants={variants}
 					initial="hidden"
 					whileInView="visible"
-					transition={{ duration: 0.5 }}
+					transition={{ duration: 0.5, delay: 0.8 }}
 				>
 					<div className="flex flex-col items-center">
 						<BiLogoPython
@@ -155,7 +155,7 @@ const Tech = () => {
 					variants={variants}
 					initial="hidden"
 					whileInView="visible"
-					transition={{ duration: 0.5 }}
+					transition={{ duration: 0.5, delay: 0.88 }}
 				>
 					<div className="flex flex-col items-center">
 						<BiLogoCPlusPlus className="cursor-pointer text-[80px] text-gray-300 transition-all duration-300 md:hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
