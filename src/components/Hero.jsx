@@ -30,7 +30,7 @@ const Hero = () => {
 					initial={{ y: 50, opacity: 0 }}
 					animate={{ y: 0, opacity: 1 }}
 					transition={{ duration: 0.8, delay: 0.2 }}
-					className="flex max-w-[600px] flex-col items-center justify-center gap-3
+					className="flex max-w-[700px] flex-col items-center justify-center gap-3
                 text-center"
 				>
 					<h1
@@ -46,10 +46,14 @@ const Hero = () => {
 						Software Engineer
 					</h3> */}
 					<p className="md:text-lg text-base text-pretty font-medium text-gray-300">
-						2nd Year B. Engineering (Software) @ UNSW
+						<span className="block md:inline">
+							2nd Year B. Engineering (Software)
+						</span>
+						<span className="block md:inline"> @ UNSW</span>
 					</p>
 					<p className="md:text-lg text-base text-pretty font-medium text-gray-300">
-						Training Program Lead @ UNSW DevSoc
+						<span className="block md:inline">Training Program Lead</span>
+						<span className="block md:inline"> @ UNSW DevSoc</span>
 					</p>
 				</motion.div>
 			</div>
