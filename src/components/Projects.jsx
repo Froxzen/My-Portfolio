@@ -1,6 +1,5 @@
 import { motion } from "motion/react";
 import { BiLinkExternal } from "react-icons/bi";
-import bubbleImage from "../images/Bubble.png";
 import pathfinderImage from "../images/pathfinder.png"
 import sentimentImage from "../images/Sentiment.png";
 import airtableImage from "../images/Airtable.png"
@@ -21,14 +20,6 @@ const projectsData = [
 			"An app where you can create spreadsheets without all the complex stuff. Includes essential features such as filtering, sorting, searching and more!",
 		technologies: ["Next.js", "React", "Tailwind CSS", "tRPC", "PostgreSQL", "Prisma", "NextAuth.js"],
 		link: "https://airtable-clone-ebon.vercel.app/",
-	},
-	{
-		image: bubbleImage,
-		title: "Bubble Sort Visualiser",
-		description:
-			"A program which allows you to visualize the Bubble Sort algorithm in action. You can generate a new dataset, change its size, and adjust the speed of the visualization.",
-		technologies: ["HTML", "CSS", "TypeScript", "Vite"],
-		link: "https://sorting-algorithm.pages.dev/",
 	},
 	{
 		image: sentimentImage,
