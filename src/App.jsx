@@ -12,7 +12,7 @@ function App() {
 			<main className="flex flex-col items-center px-4 md:px-8 lg:px-16">
 				<Navbar />
 				<Hero />
-				{/* <Experience /> */}
+				<Experience />
 				<Projects />
 				<div className="mb-16 md:mb-24"></div>
 				<Tech />

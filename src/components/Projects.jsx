@@ -104,7 +104,7 @@ const Projects = () => {
 		>
 			<ScrollReveal>
 				<h1 className="text-5xl font-light text-gray-800 md:text-7xl">
-					My Projects
+					Projects
 				</h1>
 			</ScrollReveal>
 			<div className="flex w-full max-w-[1000px] flex-col gap-16 text-gray-800">
