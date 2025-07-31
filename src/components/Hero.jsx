@@ -45,6 +45,9 @@ const Hero = () => {
 						<p className="md:text-xl text-lg font-medium text-gray-700">
 							Software Engineer Intern @ CalcTree
 						</p>
+						<p className="md:text-xl text-lg font-medium text-gray-700">
+							Training Lead @ UNSW Software Development Society
+						</p>
 					</div>
 				</motion.div>
 			</div>
