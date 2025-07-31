@@ -40,7 +40,7 @@ const Hero = () => {
 					>
 						Harvard Chong
 					</h1>
-					
+
 					<div className="space-y-2">
 						<p className="md:text-xl text-lg font-medium text-gray-700">
 							2nd Year B. Engineering (Software) @ UNSW
