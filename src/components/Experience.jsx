@@ -33,7 +33,7 @@ const experienceData = [
 		image: sentimentImage,
 		title: "Sentiment Analyser",
 		description:
-			"This project is a sentiment analysis application built with Streamlit and NLTK's SentimentIntensityAnalyzer. It allows users to enter text and receive sentiment feedback along with a visual representation of the sentiment score.",
+			"This experience is a sentiment analysis application built with Streamlit and NLTK's SentimentIntensityAnalyzer. It allows users to enter text and receive sentiment feedback along with a visual representation of the sentiment score.",
 		technologies: ["Python", "NLTK", "Streamlit"],
 		link: "https://sentiment-analyser-ai.streamlit.app/",
 	},
@@ -51,19 +51,19 @@ const ScrollReveal = ({ children }) => {
 	);
 };
 
-const ProjectCard = ({ project }) => {
+const ExperienceCard = ({ experience }) => {
 	return (
 		<ScrollReveal>
 			<div className="flex flex-col items-center gap-8 md:flex-row md:gap-24">
 				<div className="relative block w-full max-w-[300px] md:transition-all md:duration-300 md:hover:scale-105">
 					<a
-						href={project.link}
+						href={experience.link}
 						target="_blank"
 						rel="noopener noreferrer"
 						className="block w-full"
 					>
 						<img
-							src={project.image}
+							src={experience.image}
 							alt=""
 							className="w-full cursor-pointer rounded-2xl "
 						/>
@@ -74,13 +74,13 @@ const ProjectCard = ({ project }) => {
 				<div className="flex flex-col gap-5">
 					<div className="flex flex-col gap-3">
 						<div className="text-xl font-semibold text-gray-800">
-							{project.title}
+							{experience.title}
 						</div>
-						<p className="text-gray-600">{project.description}</p>
+						<p className="text-gray-600">{experience.description}</p>
 					</div>
 
 					<div className="flex flex-wrap gap-5 justify-center md:justify-start">
-						{project.technologies.map((tech, index) => (
+						{experience.technologies.map((tech, index) => (
 							<span
 								key={index}
 								className="rounded-lg bg-gray-200 text-gray-800 p-3 "
@@ -108,8 +108,8 @@ const Experience = () => {
 				</h1>
 			</ScrollReveal>
 			<div className="flex w-full max-w-[1000px] flex-col gap-16 text-gray-800">
-				{experienceData.map((project, index) => (
-					<ProjectCard key={index} project={project} />
+				{experienceData.map((experience, index) => (
+					<ExperienceCard key={index} experience={experience} />
 				))}
 			</div>
 		</div>
