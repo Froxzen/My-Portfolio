@@ -43,10 +43,7 @@ const Hero = () => {
 
 					<div className="space-y-2">
 						<p className="md:text-xl text-lg font-medium text-gray-700">
-							2nd Year B. Engineering (Software) @ UNSW
-						</p>
-						<p className="md:text-xl text-lg font-medium text-gray-600">
-							Training Program Lead @ UNSW DevSoc
+							Software Engineer Intern @ CalcTree
 						</p>
 					</div>
 				</motion.div>
