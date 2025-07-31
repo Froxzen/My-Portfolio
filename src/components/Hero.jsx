@@ -46,7 +46,7 @@ const Hero = () => {
 							Software Engineer Intern @ CalcTree
 						</p>
 						<p className="md:text-xl text-lg font-medium text-gray-700">
-							Training Lead @ UNSW Software Development Society
+							Training Lead @ UNSW DevSoc
 						</p>
 					</div>
 				</motion.div>
