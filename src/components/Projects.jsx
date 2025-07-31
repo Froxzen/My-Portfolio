@@ -103,7 +103,7 @@ const Projects = () => {
     gap-16 p-4 md:px-14 md:py-24"
 		>
 			<ScrollReveal>
-				<h1 className="text-5xl font-light text-gray-800 md:text-7xl">
+				<h1 className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent text-5xl leading-normal font-light md:text-6xl pb-2 mb-4">
 					Projects
 				</h1>
 			</ScrollReveal>

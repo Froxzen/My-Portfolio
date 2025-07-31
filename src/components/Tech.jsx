@@ -27,7 +27,7 @@ const Tech = () => {
 				initial="hidden"
 				whileInView="visible"
 				transition={{ duration: 0.5 }}
-				className="text-5xl md:text-7xl font-light text-gray-800"
+				className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent text-5xl leading-normal font-light md:text-6xl pb-2 mb-4"
 			>
 				Technologies
 			</motion.h1>
