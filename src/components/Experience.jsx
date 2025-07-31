@@ -20,12 +20,7 @@ const experienceData = [
 			"Led full-stack development in a remote environment, delivering 5 user-facing features and 8 internal tools, achieving a 40% productivity increase.",
 			"Implemented AI-driven workflows using LLM APIs and debugging complex engineering data formats to support seamless JSON-based integration.",
 		],
-		technologies: [
-			"Python",
-			"LLM APIs",
-			"Mathcad",
-			"Full-stack Development",
-		],
+		technologies: ["Python", "LLM APIs", "Mathcad"],
 		link: "https://calctree.com",
 		image: calcTreeImage,
 	},
@@ -66,7 +61,6 @@ const experienceData = [
 			"Supabase",
 			"Three.js",
 			"Express",
-			"Mentoring",
 		],
 		image: devSocImage,
 		comingSoon: true,
@@ -133,7 +127,7 @@ const ExperienceCard = ({ experience }) => {
 
 				<div className="flex flex-col gap-5">
 					<div className="flex flex-col gap-3">
-						<div className="text-xl font-semibold text-gray-800">
+						<div className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent text-xl font-semibold">
 							{experience.title}
 						</div>
 
