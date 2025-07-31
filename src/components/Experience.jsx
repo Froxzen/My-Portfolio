@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { BiCalendar, BiBuilding, BiMapPin } from "react-icons/bi";
+import { BiCalendar, BiBuilding, BiMapPin, BiLinkExternal } from "react-icons/bi";
 
 const experienceData = [
 	{
@@ -14,7 +14,8 @@ const experienceData = [
 			"Investigated and implemented AI-driven workflows using LLM APIs, while debugging complex engineering data formats to support seamless JSON-based integration, achieving 100% data accuracy."
 		],
 		technologies: ["Python", "LLM APIs", "Mathcad", "Full-stack Development"],
-		color: "from-blue-500 to-cyan-500"
+		color: "from-blue-500 to-cyan-500",
+		link: "https://calctree.com"
 	},
 	{
 		title: "Co-Founder",
@@ -28,7 +29,8 @@ const experienceData = [
 			"Led technical development of core features including campus-based game mapping, user-generated quiz content, and Gemini-2.5-Pro question generation from lecture slides, expanding platform from single course to university-wide deployment."
 		],
 		technologies: ["React", "TypeScript", "Express.js", "Socket.IO", "Agora RTC", "Gemini AI"],
-		color: "from-purple-500 to-pink-500"
+		color: "from-purple-500 to-pink-500",
+		link: "https://sussyuni.com"
 	},
 	{
 		title: "Training Program Lead",
@@ -78,7 +80,19 @@ const ExperienceCard = ({ experience, index }) => {
 							<div className="flex flex-col sm:flex-row sm:items-center gap-2 text-gray-600 mb-3">
 								<div className="flex items-center gap-2">
 									<BiBuilding className="text-gray-500" />
-									<span className="font-medium">{experience.company}</span>
+									{experience.link ? (
+										<a 
+											href={experience.link} 
+											target="_blank" 
+											rel="noopener noreferrer"
+											className="font-medium hover:text-blue-600 transition-colors duration-200 flex items-center gap-1 group"
+										>
+											{experience.company}
+											<BiLinkExternal className="text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
+										</a>
+									) : (
+										<span className="font-medium">{experience.company}</span>
+									)}
 								</div>
 								<div className="hidden sm:block text-gray-400">•</div>
 								<div className="flex items-center gap-2">
