@@ -10,7 +10,7 @@ const Hero = () => {
 		>
 			<div
 				className="flex flex-col items-center justify-center
-            gap-10 text-white"
+            gap-8 text-gray-800"
 			>
 				<motion.div
 					initial={{ y: -50, opacity: 0 }}
@@ -19,42 +19,36 @@ const Hero = () => {
 				>
 					<img
 						src={image}
-						alt=""
-						className="w-[275px] cursor-auto rounded-full 
-                    shadow-xl shadow-indigo-900 transition-all duration-300 md:hover:-translate-y-3
-                    md:hover:scale-105 md:hover:shadow-2xl md:hover:shadow-indigo-600 md:w-[300px]"
+						alt="Harvard Chong"
+						className="w-[200px] cursor-auto rounded-full 
+                    shadow-lg shadow-gray-300 transition-all duration-300 md:hover:-translate-y-2
+                    md:hover:scale-105 md:hover:shadow-xl md:hover:shadow-gray-400 md:w-[220px]
+                    border-4 border-white"
 					/>
 				</motion.div>
 
 				<motion.div
 					initial={{ y: 50, opacity: 0 }}
 					animate={{ y: 0, opacity: 1 }}
-					transition={{ duration: 0.8, delay: 0.2 }}
-					className="flex max-w-[768px] w-full flex-col items-center justify-center gap-3
+					transition={{ duration: 0.8, delay: 0.4 }}
+					className="flex max-w-[768px] w-full flex-col items-center justify-center gap-4
                 text-center"
 				>
 					<h1
-						className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent text-4xl leading-tight font-light
-                        md-text-7xl"
+						className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent text-5xl leading-normal font-light
+                        md:text-6xl pb-3"
 					>
 						Harvard Chong
 					</h1>
-					{/* <h3
-						className="bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-2xl 
-                        font-light md-text-7xl"
-					>
-						Software Engineer
-					</h3> */}
-					<p className="md:text-lg text-base text-pretty font-medium text-gray-300">
-						<span className="block md:inline">
-							2nd Year B. Engineering (Software)
-						</span>
-						<span className="block md:inline"> @ UNSW</span>
-					</p>
-					<p className="md:text-lg text-base text-pretty font-medium text-gray-300">
-						<span className="block md:inline">Training Program Lead</span>
-						<span className="block md:inline"> @ UNSW DevSoc</span>
-					</p>
+					
+					<div className="space-y-2">
+						<p className="md:text-xl text-lg font-medium text-gray-700">
+							2nd Year B. Engineering (Software) @ UNSW
+						</p>
+						<p className="md:text-xl text-lg font-medium text-gray-600">
+							Training Program Lead @ UNSW DevSoc
+						</p>
+					</div>
 				</motion.div>
 			</div>
 		</div>

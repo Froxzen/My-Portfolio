@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { BiMenu, BiX } from "react-icons/bi";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
@@ -12,12 +11,12 @@ const Navbar = () => {
 
 	return (
 		<nav
-			className="fixed top-0 z-10 flex w-full items-center justify-between border-b border-b-gray-700 bg-black/70 px-16 
-      py-6 text-white backdrop-blur-md md:justify-evenly"
+			className="fixed top-0 z-10 flex w-full items-center justify-between border-b border-b-gray-300 bg-white/80 px-16 
+      py-6 text-gray-800 backdrop-blur-md md:justify-evenly"
 		>
 			<a
 				href="#home"
-				className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent opacity-80 text-3xl font-semibold
+				className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent opacity-80 text-3xl font-semibold
         transition-all duration-300 hover:opacity-100"
 			>
 				Harvard Chong
@@ -64,7 +63,7 @@ const Navbar = () => {
 						href="https://www.linkedin.com/in/harvard-chong/"
 						target="_blank"
 						rel="noopener noreferrer"
-						className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100"
+						className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-600 hover:opacity-100"
 					>
 						<BsLinkedin />
 					</a>
@@ -74,7 +73,7 @@ const Navbar = () => {
 						href="https://github.com/Froxzen"
 						target="_blank"
 						rel="noopener noreferrer"
-						className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100"
+						className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-gray-800 hover:opacity-100"
 					>
 						<BsGithub />
 					</a>
@@ -93,7 +92,7 @@ const Navbar = () => {
 			{isOpen && (
 				<div
 					className={`fixed right-0 top-[84px] flex h-screen w-1/2 flex-col items-start justify-start
-                gap-10 border-l border-gray-800 bg-black/90 p-12 ${
+                gap-10 border-l border-gray-300 bg-white/90 p-12 ${
 					isOpen ? "block" : "hidden"
 				}`}
 				>
@@ -129,7 +128,7 @@ const Navbar = () => {
 					<ul className="flex flex-wrap gap-5">
 						<li
 							className="cursor-pointer text-xl opacity-70 transition-all duration-300 
-                hover:text-blue-500 hover:opacity-100"
+                hover:text-blue-600 hover:opacity-100"
 						>
 							<a
 								href="https://www.linkedin.com/in/harvard-chong/"
@@ -145,7 +144,7 @@ const Navbar = () => {
 								href="https://github.com/Froxzen"
 								target="_blank"
 								rel="noopener noreferrer"
-								className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-white-500 hover:opacity-100"
+								className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-gray-800 hover:opacity-100"
 							>
 								<BsGithub />
 							</a>
@@ -158,4 +157,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
- 

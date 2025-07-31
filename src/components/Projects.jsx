@@ -1,8 +1,8 @@
 import { motion } from "motion/react";
 import { BiLinkExternal } from "react-icons/bi";
-import pathfinderImage from "../images/pathfinder.png"
+import pathfinderImage from "../images/pathfinder.png";
 import sentimentImage from "../images/Sentiment.png";
-import airtableImage from "../images/Airtable.png"
+import airtableImage from "../images/Airtable.png";
 
 const projectsData = [
 	{
@@ -18,7 +18,15 @@ const projectsData = [
 		title: "Airtable Clone",
 		description:
 			"An app where you can create spreadsheets without all the complex stuff. Includes essential features such as filtering, sorting, searching and more!",
-		technologies: ["Next.js", "React", "Tailwind CSS", "tRPC", "PostgreSQL", "Prisma", "NextAuth.js"],
+		technologies: [
+			"Next.js",
+			"React",
+			"Tailwind CSS",
+			"tRPC",
+			"PostgreSQL",
+			"Prisma",
+			"NextAuth.js",
+		],
 		link: "https://airtable-clone-ebon.vercel.app/",
 	},
 	{
@@ -59,23 +67,23 @@ const ProjectCard = ({ project }) => {
 							alt=""
 							className="w-full cursor-pointer rounded-2xl "
 						/>
-						<BiLinkExternal className="absolute bottom-2 right-2 text-white text-2xl bg-black rounded-full p-1" />
+						<BiLinkExternal className="absolute bottom-2 right-2 text-white text-2xl bg-blue-600 rounded-full p-1" />
 					</a>
 				</div>
 
 				<div className="flex flex-col gap-5">
 					<div className="flex flex-col gap-3">
-						<div className="text-xl font-semibold">
+						<div className="text-xl font-semibold text-gray-800">
 							{project.title}
 						</div>
-						<p className="text-gray-400">{project.description}</p>
+						<p className="text-gray-600">{project.description}</p>
 					</div>
 
 					<div className="flex flex-wrap gap-5 justify-center md:justify-start">
 						{project.technologies.map((tech, index) => (
 							<span
 								key={index}
-								className="rounded-lg bg-black p-3 "
+								className="rounded-lg bg-gray-200 text-gray-800 p-3 "
 							>
 								{tech}
 							</span>
@@ -95,11 +103,11 @@ const Projects = () => {
     gap-16 p-4 md:px-14 md:py-24"
 		>
 			<ScrollReveal>
-				<h1 className="text-5xl font-light text-white md:text-7xl">
+				<h1 className="text-5xl font-light text-gray-800 md:text-7xl">
 					My Projects
 				</h1>
 			</ScrollReveal>
-			<div className="flex w-full max-w-[1000px] flex-col gap-16 text-white">
+			<div className="flex w-full max-w-[1000px] flex-col gap-16 text-gray-800">
 				{projectsData.map((project, index) => (
 					<ProjectCard key={index} project={project} />
 				))}
