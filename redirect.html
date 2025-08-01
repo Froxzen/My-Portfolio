@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Redirecting...</title>
+		<meta
+			http-equiv="refresh"
+			content="0; url=https://froxzen.github.io/MyPortfolio"
+		/>
+		<link rel="canonical" href="https://froxzen.github.io/MyPortfolio" />
+		<style>
+			body {
+				font-family: "Poppins", sans-serif;
+				background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+				margin: 0;
+				padding: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				min-height: 100vh;
+				color: #374151;
+			}
+			.redirect-container {
+				text-align: center;
+				padding: 2rem;
+			}
+			.spinner {
+				border: 4px solid #e5e7eb;
+				border-top: 4px solid #3b82f6;
+				border-radius: 50%;
+				width: 40px;
+				height: 40px;
+				animation: spin 1s linear infinite;
+				margin: 0 auto 1rem;
+			}
+			@keyframes spin {
+				0% {
+					transform: rotate(0deg);
+				}
+				100% {
+					transform: rotate(360deg);
+				}
+			}
+			h1 {
+				margin-bottom: 0.5rem;
+				background: linear-gradient(to right, #3b82f6, #8b5cf6);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				background-clip: text;
+			}
+			p {
+				margin-bottom: 1rem;
+				color: #6b7280;
+			}
+			a {
+				color: #3b82f6;
+				text-decoration: none;
+				font-weight: 500;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="redirect-container">
+			<div class="spinner"></div>
+			<h1>Redirecting...</h1>
+			<p>You are being redirected to my portfolio.</p>
+			<p>
+				If you are not redirected automatically,
+				<a href="https://froxzen.github.io/MyPortfolio">click here</a>.
+			</p>
+		</div>
+
+		<script>
+			// Fallback redirect in case meta refresh doesn't work
+			setTimeout(function () {
+				window.location.href = "https://froxzen.github.io/MyPortfolio";
+			}, 1000);
+		</script>
+	</body>
+</html>
