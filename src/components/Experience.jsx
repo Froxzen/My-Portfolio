@@ -127,7 +127,7 @@ const ExperienceCard = ({ experience }) => {
 
 				<div className="flex flex-col gap-5">
 					<div className="flex flex-col gap-3">
-						<div className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent text-xl font-semibold">
+						<div className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent text-2xl font-semibold">
 							{experience.title}
 						</div>
 
