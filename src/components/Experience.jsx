@@ -16,9 +16,9 @@ const experienceData = [
 		location: "Sydney, NSW",
 		period: "Jul 2025 – Present",
 		achievements: [
-			"Contributed to a VC-backed SaaS startup by developing tools that automate engineering workflows using Python and robust file importers for Mathcad, processing 1,000+ files and reducing manual data entry time by 75%.",
-			"Led backend development in a remote environment, collaborating with the founding team to deliver 20+ code deployments and 12 automation workflows, achieving a 40% productivity increase.",
-			"Developed and integrated MCP servers to automate complex engineering data conversions, processing 500+ files and achieving seamless JSON-based integration with 95% accuracy.",
+			"Contributed to a VC-backed SaaS startup by developing automation tools for engineering workflows using Python and built robust file importers for Mathcad.",
+			"Led backend development in a remote environment, collaborating with the founding team to deliver code deployments and automation workflows.",
+			"Developed and integrated MCP servers to automate complex engineering data conversions with seamless JSON-based integration.",
 		],
 		technologies: ["Python", "MCP Servers", "Mathcad"],
 		link: "https://calctree.com",
@@ -30,9 +30,9 @@ const experienceData = [
 		location: "Sydney, NSW",
 		period: "Jul 2025 – Present",
 		achievements: [
-			"Co-founded a real-time multiplayer educational game serving 100+ UNSW students, combining social deduction gameplay with course revision to improve student engagement by 40%.",
+			"Co-founded a real-time multiplayer educational game serving UNSW students, combining social deduction gameplay with course revision to improve student engagement and academic performance.",
 			"Architected full-stack solution using React, TypeScript, Express.js, Socket.IO, and Agora RTC, implementing real-time voice communication and multiplayer game state synchronization.",
-			"Led technical development of core features including campus-based game mapping, user-generated quiz content, and Gemini-2.5-Pro question generation from lecture slides.",
+			"Led technical development of core features including campus-based game mapping, user-generated quiz content, and AI-powered question generation from lecture slides.",
 		],
 		technologies: [
 			"React",
@@ -51,9 +51,9 @@ const experienceData = [
 		location: "Sydney, NSW",
 		period: "Jun 2025 – Present",
 		achievements: [
-			"Mentored 3 trainees in HTML, CSS, JavaScript, React and Express through 8 weekly workshops, improving trainee project completion rates by 85%.",
-			"Redesigned training program from traditional workshops to project-based learning, developing StuVerse - a student platform with AI notes conversion and productivity features.",
-			"Led technical implementation using React, TypeScript, Supabase, Three.js, Express, coordinating 12+ meetings and achieving 100% milestone completion.",
+			"Mentored trainees in HTML, CSS, JavaScript, React and Express through weekly workshops, providing technical guidance and code reviews.",
+			"Assisted trainees during workshops and helped develop StuVerse - a student platform with AI notes conversion and productivity features.",
+			"Led technical implementation using React, TypeScript, Supabase, Three.js, and Express, coordinating meetings and achieving milestone completion.",
 		],
 		technologies: [
 			"React",
